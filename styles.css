@@ -1,0 +1,243 @@
+body {
+  color: #462681;
+}
+
+/*HEADER*/
+
+/*Background (Steve) image*/
+.background-image-container {
+  background-image: url("./images/Header-image.png");
+  width: 375px;
+  height: 270px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+/*Title*/
+.header-text {
+  font-size: 44px;
+  color: #462681;
+  margin: 20px 139px 375px 25px;
+  text-align: left;
+  margin: 0px;
+  line-height: 55px;
+  font-family: "Source Sans Pro Black", arial;
+}
+
+nav {
+  display: flex;
+}
+
+.back-text {
+  color: #ffffff;
+  font-family: "SourceSansPro-Regular";
+  font-size: 18px;
+  padding: 37px 23px 0px 0px;
+}
+.back-text-container {
+  width: 37px;
+  height: 23px;
+  margin: 25px 0px 0px 5px;
+}
+
+/*Main Content Rectangle container*/
+
+.main-content-container {
+  width: 375px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: white;
+  border-radius: 40px 40px 0px 0px;
+  margin-top: -50px;
+  border-style: groove;
+  border-width: thin;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: baseline;
+  border-color: #0000001a;
+  border-bottom-style: none;
+}
+
+.heading-text-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 20px 30px 0px 20px;
+}
+
+/*SVGS*/
+.follow-more-icon-container {
+  width: 325pt;
+  height: 55pt;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.more-dots-container {
+  padding: 20px 5px 10px 0px;
+}
+
+.fill-dot {
+  fill: #462681;
+}
+
+.follow-text {
+  color: #462681;
+  font-family: "Source Sans Pro Black", arial;
+  font-weight: bold;
+  padding: 2px 0px 0px 5px;
+}
+
+.follow-icon-container {
+  display: flex;
+  align-items: center;
+  padding: 0px 0px 0px 20px;
+}
+
+.svg-control {
+  padding: 5pt 0pt 0pt 0pt;
+}
+.svg-control-left {
+  margin: 15.44pt 0pt 0pt 15.44pt;
+}
+
+.catorgory-svg-control {
+  padding-top: 5px;
+}
+
+/*Left Arrow*/
+.a-arrow,
+.c-arrow {
+  fill: none;
+}
+
+.a-arrow {
+  stroke: #462681;
+  stroke-miterlimit: 10;
+}
+
+.b-arrow {
+  stroke: none;
+}
+
+/*Right Arrow*/
+.a-left-arrow,
+.c-left-arrow {
+  fill: none;
+}
+
+.a-left-arrow {
+  stroke: #fff;
+  stroke-miterlimit: 10;
+}
+.b-left-arrow {
+  stroke: none;
+}
+
+/*Dots SVG*/
+.a,
+.b,
+.d {
+  fill: none;
+}
+.a,
+.b {
+  stroke: #462681;
+  stroke-miterlimit: 10;
+}
+.a {
+  stroke-width: 2px;
+}
+.c {
+  stroke: none;
+}
+
+/*MAIN CONTENT*/
+
+/*Group Statistics Section*/
+.group-statistics {
+  width: 325pt;
+  height: 62pt;
+  margin: 0px 10px 0px 10px;
+  border-style: solid;
+  border-right-style: none;
+  border-left-style: none;
+  border-width: thin;
+  border-color: #462681;
+  font-family: "Source Sans Pro Black", arial;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.group-text-control {
+  font-size: 24pt;
+  color: #462681;
+}
+
+.group2-text-control {
+  font-size: 14pt;
+  color: #462681;
+}
+
+/*Patents specific measurements*/
+.patents-child {
+  width: 56pt;
+  height: 45pt;
+}
+
+.group-text-parent-center {
+  padding: 6px 25px 0px 25px;
+  text-align: center;
+}
+
+.group-text-parent-left {
+  text-align: center;
+  padding: 6px 0px 0px 15px;
+}
+
+.group-text-parent-right {
+  text-align: center;
+  padding: 6px 10px 0px 0px;
+}
+
+/*Catorgories Section*/
+.catorgories-container {
+  width: 325px;
+  height: auto;
+  display: grid;
+  margin: 0px 20px 6pt 20px;
+}
+
+.catorgories-control {
+  font-size: 14px;
+  text-align: left;
+  font-family: "Source Sans Pro Black", arial;
+  margin: 10px 0px 10px 0px;
+}
+
+.catorgory-item-title-control {
+  display: flex;
+  justify-content: space-between;
+  border-style: solid;
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  border-bottom-width: thin;
+  padding: 15px 0px 20px 0px;
+}
+
+.title-text-control {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 25pt;
+}
+
+/*List Items*/
+.catorgory-container {
+  padding: 0;
+  margin: 0;
+}

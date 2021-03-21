@@ -34,6 +34,7 @@ nav {
   color: #ffffff;
   font-family: "SourceSansPro-Regular";
   font-size: 18px;
+  font-size: 14px;
   margin: 22px 0px 0px 5px;
   font: caption;
 }
@@ -92,6 +93,7 @@ nav {
   font-family: "Source Sans Pro Black", arial;
   padding: 2px 0px 0px 5px;
   margin: -5px 0px 0px;
+  font-size: 14px;
 }
 
 .follow-icon-container {
@@ -163,8 +165,8 @@ nav {
 
 /*Group Statistics Section*/
 .group-statistics {
-  width: 325pt;
-  height: 62pt;
+  width: 325px;
+  height: 62px;
   margin: 5px 20px 5px 20px;
   border-style: solid;
   border-right-style: none;
@@ -181,7 +183,8 @@ nav {
 
 .group-text-control {
   font-size: 24px;
-  margin: 0;
+  display: block;
+  margin: 5px 0px -10px 0px;
 }
 
 .group2-text-control {
@@ -196,18 +199,18 @@ nav {
 }
 
 .group-text-parent-center {
-  padding: 6px 25px 0px 25px;
+  padding: 0px 25px 0px 25px;
   text-align: center;
 }
 
 .group-text-parent-left {
   text-align: center;
-  padding: 6px 0px 0px 15px;
+  padding: 0px 0px 0px 15px;
 }
 
 .group-text-parent-right {
   text-align: center;
-  padding: 6px 15px 0px 0px;
+  padding: 0px 15px 0px 0px;
 }
 
 /*Catorgories Section*/
@@ -225,7 +228,7 @@ nav {
   margin: 10px 0px 10px 0px;
 }
 
-.catorgory-item-title-control {
+.catorgory-svg-title-control {
   display: flex;
   justify-content: space-between;
   border-style: solid;
@@ -236,9 +239,9 @@ nav {
   padding: 15px 0px 20px 0px;
 }
 
-.title-text-control {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 25pt;
+.catorgory-text-control {
+  font-family: "Source Sans Pro", Regular;
+  font-size: 25px;
 }
 
 /*List Items*/

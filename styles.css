@@ -34,12 +34,13 @@ nav {
   color: #ffffff;
   font-family: "SourceSansPro-Regular";
   font-size: 18px;
-  padding: 37px 23px 0px 0px;
+  margin: 22px 0px 0px 5px;
+  font: caption;
 }
 .back-text-container {
   width: 37px;
   height: 23px;
-  margin: 25px 0px 0px 5px;
+  margin: 22px 0px 0px 5px;
 }
 
 /*Main Content Rectangle container*/
@@ -89,21 +90,22 @@ nav {
 .follow-text {
   color: #462681;
   font-family: "Source Sans Pro Black", arial;
-  font-weight: bold;
   padding: 2px 0px 0px 5px;
+  margin: -5px 0px 0px;
 }
 
 .follow-icon-container {
   display: flex;
   align-items: center;
-  padding: 0px 0px 0px 20px;
+  padding: 0px 0px 10px 20px;
 }
 
 .svg-control {
-  padding: 5pt 0pt 0pt 0pt;
+  padding: 5px 0px 0px 0px;
+  margin: -5px 0px 0px;
 }
 .svg-control-left {
-  margin: 15.44pt 0pt 0pt 15.44pt;
+  margin: 15.44px 0px 0px 15.44px;
 }
 
 .catorgory-svg-control {
@@ -163,25 +165,28 @@ nav {
 .group-statistics {
   width: 325pt;
   height: 62pt;
-  margin: 0px 10px 0px 10px;
+  margin: 5px 20px 5px 20px;
   border-style: solid;
   border-right-style: none;
   border-left-style: none;
   border-width: thin;
   border-color: #462681;
-  font-family: "Source Sans Pro Black", arial;
+  font-family: source-sans-pro, sans-serif;
+  font-weight: 900;
+  font-style: normal;
   display: flex;
   justify-content: space-evenly;
+  color: #462681;
 }
 
 .group-text-control {
-  font-size: 24pt;
-  color: #462681;
+  font-size: 24px;
+  margin: 0;
 }
 
 .group2-text-control {
-  font-size: 14pt;
-  color: #462681;
+  font-size: 14px;
+  margin: 0;
 }
 
 /*Patents specific measurements*/
@@ -202,7 +207,7 @@ nav {
 
 .group-text-parent-right {
   text-align: center;
-  padding: 6px 10px 0px 0px;
+  padding: 6px 15px 0px 0px;
 }
 
 /*Catorgories Section*/

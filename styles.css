@@ -1,3 +1,12 @@
+@font-face {
+  src: url("./fonts/SourceSansPro-Black.ttf") format("ttf"),
+    url("./fonts/SourceSansPro-Regular.ttf") format("ttf");
+
+  font-family: "Source Sans Pro";
+  /* font-style: normal;
+  font-weight: normal; */
+}
+
 body {
   color: #462681;
 }
@@ -94,6 +103,7 @@ nav {
   padding: 2px 0px 0px 5px;
   margin: -5px 0px 0px;
   font-size: 14px;
+  text-shadow: 0px 1px 0px;
 }
 
 .follow-icon-container {
@@ -173,7 +183,7 @@ nav {
   border-left-style: none;
   border-width: thin;
   border-color: #462681;
-  font-family: source-sans-pro, sans-serif;
+  font-family: "Source Sans Pro Black", arial;
   font-weight: 900;
   font-style: normal;
   display: flex;
@@ -184,12 +194,14 @@ nav {
 .group-text-control {
   font-size: 24px;
   display: block;
-  margin: 5px 0px -10px 0px;
+  margin: 5px 0px -5px 0px;
+  text-shadow: 0px 1px 0px;
 }
 
 .group2-text-control {
   font-size: 14px;
   margin: 0;
+  text-shadow: 0px 1px 0px;
 }
 
 /*Patents specific measurements*/
@@ -213,22 +225,23 @@ nav {
   padding: 0px 15px 0px 0px;
 }
 
-/*Catorgories Section*/
-.catorgories-container {
+/*Catergories Section*/
+.catergories-container {
   width: 325px;
   height: auto;
   display: grid;
   margin: 0px 20px 0px 20px;
+  padding: 0px 0px 0px 5px;
 }
 
-.catorgories-control {
+.catergories-control {
   font-size: 14px;
   text-align: left;
   font-family: "Source Sans Pro Black", arial;
   margin: 10px 0px 10px 0px;
 }
 
-.catorgory-svg-title-control {
+.catergory-svg-title-control {
   display: flex;
   justify-content: space-between;
   border-style: solid;
@@ -236,16 +249,16 @@ nav {
   border-left-style: none;
   border-right-style: none;
   border-bottom-width: thin;
-  padding: 15px 0px 15px 0px;
+  padding: 15px 0px 15px 5px;
 }
 
-.catorgory-text-control {
+.catergory-text-control {
   font-family: "Source Sans Pro", Regular;
   font-size: 25px;
 }
 
 /*List Items*/
-.catorgory-container {
+.catergory-container {
   padding: 0;
   margin: 0;
 }

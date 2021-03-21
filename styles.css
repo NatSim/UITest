@@ -218,7 +218,7 @@ nav {
   width: 325px;
   height: auto;
   display: grid;
-  margin: 0px 20px 6pt 20px;
+  margin: 0px 20px 0px 20px;
 }
 
 .catorgories-control {
@@ -236,7 +236,7 @@ nav {
   border-left-style: none;
   border-right-style: none;
   border-bottom-width: thin;
-  padding: 15px 0px 20px 0px;
+  padding: 15px 0px 15px 0px;
 }
 
 .catorgory-text-control {

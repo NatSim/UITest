@@ -190,8 +190,6 @@ nav {
   border-width: thin;
   border-color: #462681;
   font-family: "Source Sans Pro Black", sans-serif;
-  font-weight: 900;
-  font-style: normal;
   display: flex;
   justify-content: space-evenly;
   color: #462681;
@@ -201,13 +199,11 @@ nav {
   font-size: 24px;
   display: block;
   margin: 5px 0px -5px 0px;
-  /* text-shadow: 0px 1px 0px; */
 }
 
 .group2-text-control {
   font-size: 14px;
   margin: 0;
-  /* text-shadow: 0px 1px 0px; */
 }
 
 /*Patents specific measurements*/
@@ -233,7 +229,7 @@ nav {
 
 /*Categories Section*/
 .category-title {
-  /* text-shadow: 0px 1px 0px; */
+  padding: 0px 0px 0px 5px;
 }
 
 .categories-container {

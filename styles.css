@@ -3,7 +3,7 @@
 
   font-family: "Source Sans Pro";
   font-style: normal;
-  font-weight: 900px;
+  font-weight: 900;
 }
 
 @font-face {
@@ -48,7 +48,7 @@ nav {
 
 .back-text {
   color: #ffffff;
-  font-family: "SourceSansPro-Regular";
+  font-family: "SourceSansPro-Regular", sans-serif;
   font-size: 18px;
   font-size: 14px;
   margin: 22px 0px 0px 5px;
@@ -89,8 +89,8 @@ nav {
 
 /*SVGS*/
 .follow-more-icon-container {
-  width: 325pt;
-  height: 55pt;
+  width: 325px;
+  height: 55px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -263,7 +263,7 @@ nav {
 }
 
 .category-text-control {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Source Sans Pro", san;
   font-size: 25px;
 }
 

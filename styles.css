@@ -1,10 +1,17 @@
 @font-face {
-  src: url("./fonts/SourceSansPro-Black.ttf") format("ttf"),
-    url("./fonts/SourceSansPro-Regular.ttf") format("ttf");
+  src: url("./fonts/SourceSansPro-Black.ttf") format("ttf");
 
   font-family: "Source Sans Pro";
-  /* font-style: normal;
-  font-weight: normal; */
+  font-style: normal;
+  font-weight: 900px;
+}
+
+@font-face {
+  src: url("./fonts/SourceSansPro-Regular.ttf") format("ttf");
+
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
 }
 
 body {
@@ -32,7 +39,7 @@ body {
   text-align: left;
   margin: 0px;
   line-height: 55px;
-  font-family: "Source Sans Pro Black", arial;
+  font-family: "Source Sans Pro Black", sans-serif;
 }
 
 nav {
@@ -99,7 +106,7 @@ nav {
 
 .follow-text {
   color: #462681;
-  font-family: "Source Sans Pro Black", arial;
+  font-family: "Source Sans Pro Black", sans-serif;
   padding: 2px 0px 0px 5px;
   margin: -5px 0px 0px;
   font-size: 14px;
@@ -182,7 +189,7 @@ nav {
   border-left-style: none;
   border-width: thin;
   border-color: #462681;
-  font-family: "Source Sans Pro Black", arial;
+  font-family: "Source Sans Pro Black", sans-serif;
   font-weight: 900;
   font-style: normal;
   display: flex;
@@ -194,13 +201,13 @@ nav {
   font-size: 24px;
   display: block;
   margin: 5px 0px -5px 0px;
-  text-shadow: 0px 1px 0px;
+  /* text-shadow: 0px 1px 0px; */
 }
 
 .group2-text-control {
   font-size: 14px;
   margin: 0;
-  text-shadow: 0px 1px 0px;
+  /* text-shadow: 0px 1px 0px; */
 }
 
 /*Patents specific measurements*/
@@ -226,7 +233,7 @@ nav {
 
 /*Categories Section*/
 .category-title {
-  text-shadow: 0px 1px 0px;
+  /* text-shadow: 0px 1px 0px; */
 }
 
 .categories-container {
@@ -240,7 +247,7 @@ nav {
 .categories-control {
   font-size: 14px;
   text-align: left;
-  font-family: "Source Sans Pro Black", arial;
+  font-family: "Source Sans Pro Black", sans-serif;
   margin: 10px 0px 10px 0px;
 }
 
@@ -256,7 +263,7 @@ nav {
 }
 
 .category-text-control {
-  font-family: "Source Sans Pro", Regular;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 25px;
 }
 
